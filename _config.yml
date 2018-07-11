@@ -11,6 +11,10 @@ author: Leo
 language:
 timezone:
 
+#hexo sitemap
+sitemap:
+  path: sitemap.xml
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blog.rustguru.com
@@ -26,7 +30,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: README.md
+skip_render: [README.md, '*.html']
 
 # Writing
 new_post_name: :title.md # File name of new posts
